@@ -1,0 +1,27 @@
+2020-10-15T20:20:41.915619+00:00 app[api]: Initial release by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:20:41.915619+00:00 app[api]: Release v1 created by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:20:42.540167+00:00 app[api]: Enable Logplex by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:20:42.540167+00:00 app[api]: Release v2 created by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:20:51.234419+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=ads2eac3.herokuapp.com request_id=b55763ec-6ecb-4fff-8f62-6976ab2cac0e fwd="191.5.230.10" dyno= connect= service= status=502 bytes= protocol=https
+2020-10-15T20:20:41.915619+00:00 app[api]: Initial release by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:20:41.915619+00:00 app[api]: Release v1 created by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:20:42.540167+00:00 app[api]: Enable Logplex by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:20:42.540167+00:00 app[api]: Release v2 created by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:20:51.234419+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=ads2eac3.herokuapp.com request_id=b55763ec-6ecb-4fff-8f62-6976ab2cac0e fwd="191.5.230.10" dyno= connect= service= status=502 bytes= protocol=https
+2020-10-15T20:21:51.000000+00:00 app[api]: Build started by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:22:16.088995+00:00 app[api]: Release v3 created by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:22:16.088995+00:00 app[api]: Deploy 1ff8059f by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:22:16.101977+00:00 app[api]: Scaled to web@1:Free by user raquel.nascimento@aluno.faculdadeimpacta.com.br
+2020-10-15T20:22:19.273539+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-15T20:22:21.381977+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-15T20:22:21.382046+00:00 app[web.1]: * Environment: production
+2020-10-15T20:22:21.382122+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-15T20:22:21.382218+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-15T20:22:21.382263+00:00 app[web.1]: * Debug mode: off
+2020-10-15T20:22:21.395977+00:00 app[web.1]: * Running on http://0.0.0.0:58848/ (Press CTRL+C to quit)
+2020-10-15T20:22:21.639856+00:00 heroku[web.1]: State changed from starting to up
+2020-10-15T20:22:24.000000+00:00 app[api]: Build succeeded
+2020-10-15T20:23:38.893219+00:00 heroku[router]: at=info method=GET path="/" host=ads2eac3.herokuapp.com request_id=f437fed5-a9f9-4d73-a1c9-52ae243d0ba9 fwd="191.5.230.10" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-15T20:23:38.894037+00:00 app[web.1]: 10.9.158.174 - - [15/Oct/2020 20:23:38] "GET / HTTP/1.1" 200 -
+2020-10-15T20:24:14.779705+00:00 app[web.1]: 10.47.250.44 - - [15/Oct/2020 20:24:14] "GET / HTTP/1.1" 200 -
+2020-10-15T20:24:14.782442+00:00 heroku[router]: at=info method=GET path="/" host=ads2eac3.herokuapp.com request_id=ea6131fd-eee0-4cdb-8188-9659c79ca30a fwd="66.249.83.2" dyno=web.1 connect=4ms service=6ms status=200 bytes=566 protocol=https
