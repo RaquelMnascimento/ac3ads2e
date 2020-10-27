@@ -21,7 +21,7 @@ def sequencia_fibonacci():
            if (found % 5 == 0):
                resposta = resposta + "<br>" 
 
-   return resposta
+   print(resposta)
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
